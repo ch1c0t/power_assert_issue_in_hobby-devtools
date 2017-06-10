@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/k-tsj/power_assert.git
+  revision: 955c8f74f289376aeab733ae6370c48fabb1bb7b
+  ref: 955c8f74
+  specs:
+    power_assert (1.1.0dev)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -77,7 +84,6 @@ GEM
     parallel (1.11.2)
     parser (2.3.3.1)
       ast (~> 2.2)
-    power_assert (1.0.2)
     procto (0.0.3)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -101,8 +107,8 @@ GEM
     rspec-mocks (3.6.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.6.0)
-    rspec-power_assert (1.0.0)
-      power_assert (~> 1.0.0)
+    rspec-power_assert (0.1.0)
+      power_assert (>= 0.1.4)
       rspec (>= 2.14)
     rspec-support (3.6.0)
     slop (3.6.0)
@@ -125,6 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   hobby-devtools
+  power_assert!
   rspec
   rspec-power_assert
 
